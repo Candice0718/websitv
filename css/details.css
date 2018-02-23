@@ -1,0 +1,226 @@
+.details-bgd {
+  background-color: #010311;
+  width: 100%;
+}
+.details-container {
+  width: 1030px;
+  height: 500px;
+  margin: 80px auto;
+  background: #232323;
+}
+
+/*video 部分*/
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .info {
+    background-color: #eee;
+    border: thin solid #333;
+    border-radius: 3px;
+    margin: 0 0 20px;
+    padding: 0 5px;
+  }
+
+  /*
+    We include some minimal custom CSS to make the playlist UI look good
+    in this context.
+  */
+  .player-container {
+    background: #333333;
+    overflow: auto;
+    width: 990px;
+    height: 500px;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .video-js {
+    width: 660px;
+    float: left;
+  }
+  .video-js:focus {
+    outline: 0;
+  }
+  .video-js .vjs-control-bar {
+    background-color: #252524 !important;
+  }
+  .video-js button {
+    margin-top: 3px !important;
+  }
+  .vjs-menu-button {
+    margin-top: 3px !important;
+  }
+  .vjs-big-play-button {
+    top: 7em !important;
+    left: 10em !important;
+  }
+  .outer-container-playlist,.vjs-playlist-item-list {
+    float: right;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    background-color: #333333 !important;
+  }
+  .outer-container-playlist {
+    position: relative;
+    overflow: hidden;
+    background-color: #333333 !important;
+  }
+  .vjs-playlist {
+    position: relative;
+    overflow: hidden;
+    position: absolute; left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #333333 !important;
+  }
+  .vjs-playlist::-webkit-scrollbar{
+    display: none;
+    width: 0 !important
+  }
+  .vjs-playlist-item {
+    padding: 15px 8px 15px 8px;
+  }
+  .vjs-playlist-item:focus {
+    outline: 0;
+  }
+  .vjs-selected {
+    background-color: transparent !important;
+  }
+  .vjs-playlist-thumbnail {
+    height: 85px;
+  }
+  .vjs-playlist-now-playing-text > img{
+    /*display: none !important;*/
+    opacity: 0.8 !important;
+    margin-top: 7px;
+    margin-left: 12px;
+  }
+  .vjs-up-next-text {
+    display: none !important;
+  }
+  .vjs-playlist img {
+    width: 35% !important;
+    float: left;
+    vertical-align: middle;
+    object-fit: contain;
+  }
+  .vjs-playlist .vjs-playlist-title-container {
+    width: 60%;
+    float: right;
+    right: 0;
+    height: 85px;
+    font-size: 14px;
+  }
+  .vjs-playlist-name {
+    height: 85px !important;
+    width: 100%;
+    /*overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-overflow-scrolling: touch;
+    text-align: justify; */
+    overflow : hidden !important;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .sitv-btn {
+    width: 30px;
+    height: 500px;
+    border: red;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    background-color: #232323;
+  }
+  .sitv-btn > div {
+    width: 30px;
+    height: 50px;
+    top: 210px;
+    position: relative;
+  }
+  .sitv-btn-img {
+    width: 18px;
+    /*height: 30px*/
+    right: 5px;
+    position: absolute;
+  }
+  .sitv-btn-label {
+    width: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+  }
+  .playlist-btn {
+    display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+  }
+  .playlist-btn-img {
+    width: 8px;
+    /*height: 30px;*/
+    top: 220px;
+    left: 3px;
+    position: absolute;
+  }
+
+/*联系我们部分*/
+.details-contact {
+  width: 100%;
+  min-width: 1030px;
+  height: 150px;
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #a9a9a9;
+  position: absolute;
+  bottom: 0;
+}
+
+.details-contact-title {
+  margin-bottom: 20px;
+}
+.details-contact-title > img {
+  width: 235px;
+}
+.contact-label {
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  display: inline-block;
+}
+.contact-value {
+  display: inline-block;
+  margin-left: 10px;
+}
+.details-contact-address {
+  width: 220px;
+  height: 20px;
+  line-height: 20px;
+}
+.details-contact-tel {
+  width: 220px;
+  height: 20px;
+  line-height: 20px;
+}
+.details-contact-tel a {
+  text-decoration: none;
+  color: #a9a9a9;
+}
+.details-contact-web {
+  width: 250px;
+  height: 20px;
+  line-height: 20px;
+}
+.details-contact-web a {
+  text-decoration: none;
+  color: #a9a9a9;
+}
